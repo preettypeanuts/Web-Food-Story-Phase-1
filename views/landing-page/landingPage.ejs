@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../styles/loginPage.css" />
+  </head>
+  <%- include('../property/header') %>
+  <style>
+    .body {
+      background-color: rgb(255, 255, 255);
+    }
+    .textContainer {
+      position: relative;
+      margin-top: 50vh;
+      margin-left: 7vh;
+      /* top: 50%; left: 50%;  */
+      /* transform: translate(8vh, -310%); */
+      z-index: 1;
+    }
+    .valueContainer {
+      color: white;
+      /* width: 1000px; */
+    }
+    .carousel-item {
+      position: relative;
+    }
+    .carousel-item:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.522);
+    }
+  </style>
+  <body>
+    <div class="body" style="padding-top: 0vh">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 darkenImage"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 darkenImage"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1679434184867-a294eb85400c?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 darkenImage"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 darkenImage"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1496412705862-e0088f16f791?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100 darkenImage"
+              alt="..."
+            />
+          </div>
+          <div style="position: static;">
+            <div class="textContainer">
+                <div class="valueContainer">
+                    <h1 class="display-2">Food Story</h1>
+                    <p style="font-size: 33px;" class="display-6">Food Story is a social media platform that brings together a vibrant community of food lovers,<br> where you can explore delectable recipes and share your culinary journey.<br>Join us to savor the flavors of food and create your own delicious story.</p>
+                    <a href="/register" class="btn" style="color: white; background-color: rgba(255, 255, 255, 0.401); backdrop-filter: blur(15px);">Register Here</a>
+
+                    <div style="margin-top: 10px; color: rgba(255, 255, 255, 0.679);">
+                      <label for="">Already have an account? Login here:</label>
+                    </div>
+                    <a href="/login" class="btn" style="color: white; background-color: rgba(255, 255, 255, 0.401); backdrop-filter: blur(15px); margin-top: 10px;">Login</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <%- include('../property/footer') %>
+</html>

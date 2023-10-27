@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Post 1",
+    "description": "Deskripsi post pertama",
+    "image": "url_gambar_1.jpg",
+    "likes": 100,
+    "UserId": 1
+  },
+  {
+    "title": "Post 2",
+    "description": "Deskripsi post kedua",
+    "image": "url_gambar_2.jpg",
+    "likes": 75,
+    "UserId": 2
+  },
+  {
+    "title": "Post 3",
+    "description": "Deskripsi post ketiga",
+    "image": "url_gambar_3.jpg",
+    "likes": 120,
+    "UserId": 1
+  }
+]

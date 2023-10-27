@@ -1,0 +1,23 @@
+[
+    {
+        "email":"ally@mail.com",
+        "password": "mypassword123",
+        "role": "Admin"
+    },
+    {
+        "email":"billie@mail.com",
+        "password": "mypassword123",
+        "role": "User"
+    },
+    {
+        "email":"cortos@mail.com",
+        "password": "mypassword123",
+        "role": "User"
+    },
+    {
+        "email":"daisy@mail.com",
+        "password": "mypassword123",
+        "role": "User"
+    }
+
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Ally Jane",
+        "bio": "Ini adalah profil pertama",
+        "gender": "Female",
+        "UserId": 1
+    },
+    {
+        "name": "Billie Way",
+        "bio": "Profil kedua dengan deskripsi singkat",
+        "gender": "Female",
+        "UserId": 2
+    },
+    {
+        "name": "Cortos Demuro",
+        "bio": "Deskripsi profil ketiga",
+        "gender": "Male",
+        "UserId": 3
+    },
+    {
+        "name": "Daisy Camelias",
+        "bio": "Deskripsi profil ketiga",
+        "gender": "Female",
+        "UserId": 4
+    }
+]
